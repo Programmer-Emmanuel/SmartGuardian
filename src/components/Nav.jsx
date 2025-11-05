@@ -14,15 +14,15 @@ export function Nav(){
     }
 
     const navLinks = [
-        { to: "", label: "Accueil" },
-        { to: "", label: "Alertes" },
-        { to: "", label: "Historiques" },
-        { to: "", label: "Statistiques" },
+        { to: "/", label: "Accueil" },
+        { to: "/alertes", label: "Alertes" },
+        { to: "/historiques", label: "Historiques" },
+        { to: "/statistiques", label: "Statistiques" },
     ]
 
     return(
         <>
-            <nav className="flex justify-between p-2 items-center sticky top-0 z-50 backdrop-blur-sm bg-white/80 border-b-2 border-gray-300">
+            <nav className="flex justify-between p-2 items-center sticky top-0 z-50 backdrop-blur-sm bg-white/80 border-b-2 border-gray-300 shadow-lg">
                 {/* Logo */}
                 <Link to="" className="flex gap-3 justify-center items-center hover:text-blue-500">
                     <img src={image.logo} 
@@ -48,7 +48,7 @@ export function Nav(){
                             </Link>
                         ))}
                         <Link 
-                            to="" 
+                            to="/connexion" 
                             className="p-3 rounded-full bg-blue-600 text-white hover:bg-blue-800 transition-colors duration-300"
                         >
                             Connexion

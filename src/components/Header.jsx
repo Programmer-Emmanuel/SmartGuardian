@@ -47,7 +47,7 @@ export function Header() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Link
-            to=""
+            to="/dashboard"
             className="inline-flex items-center gap-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl shadow-lg"
           >
             <span>Accéder au Dashboard</span>

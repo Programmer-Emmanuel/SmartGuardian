@@ -58,7 +58,7 @@ export function About() {
 
   return (
     <section className="py-2 bg-white">
-      <div className="container mx-auto px-1">
+      <div className="container mx-auto px-3">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {features.map((feature, index) => (
             <div 
