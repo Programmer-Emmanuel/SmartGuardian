@@ -65,18 +65,8 @@ export function Initiateur() {
     };
 
     return (
-        <section className="py-16 bg-gray-50">
+        <section className="pb-16 bg-gray-50">
             <div className="container mx-auto px-3">
-                {/* Titre Section */}
-                <div className="text-center mb-12">
-                    <h2 className="text-4xl font-bold text-gray-900 mb-4">
-                        Notre <span className="text-blue-600">Équipe</span>
-                    </h2>
-                    <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                        Les experts derrière SmartGuardian Cloud
-                    </p>
-                </div>
-
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {profil.map((person, index) => (
                         <div 
