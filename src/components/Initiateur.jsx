@@ -26,7 +26,7 @@ export function Initiateur() {
             role: "Ingénieur Réseau & Cloud",
             description: "Spécialisé dans la conception, le déploiement et la gestion d'infrastructures sécurisées pour une expérience optimisée. Expert en virtualisation et solutions Cloud innovantes.",
             link: "https://www.linkedin.com/in/malick-ulrich-toure-69ab64304/",
-            competences: ["Réseaux", "Linux", "Sécurité"]
+            competences: ["AWS", "Réseaux", "Virtualisation", "Linux", "Sécurité"]
         }
     ];
 
@@ -66,7 +66,7 @@ export function Initiateur() {
 
     return (
         <section className="py-16 bg-gray-50">
-            <div className="container mx-auto px-2">
+            <div className="container mx-auto px-3">
                 {/* Titre Section */}
                 <div className="text-center mb-12">
                     <h2 className="text-4xl font-bold text-gray-900 mb-4">
