@@ -64,13 +64,13 @@ export function Footer() {
             </p>
             <div className="space-y-4">
               {[
-                { icon: "🔍", text: "Détection Intelligente par IA" },
-                { icon: "⏰", text: "Surveillance 24h/24" },
-                { icon: "🚨", text: "Alertes Instantanées <2s" },
-                { icon: "☁️", text: "Plateforme Cloud" }
+                { icon: ()=>(<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" /></svg>), text: "Détection Intelligente par IA" },
+                { icon: ()=>(<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0M3.124 7.5A8.969 8.969 0 0 1 5.292 3m13.416 0a8.969 8.969 0 0 1 2.168 4.5" /></svg>), text: "Surveillance 24h/24" },
+                { icon: ()=>(<svg xmlns="http://www.w3.org/2000/svg" class="size-6" viewBox="0 0 432 432"><path fill="currentColor" d="m427 82l-28 33l-98-83l28-32zM125 32l-97 82L0 82L98 0zm99 99v112l85 50l-16 26l-101-60V131h32zm-10.5-86Q293 45 349 101.5t56 136T349 373t-135.5 56t-136-56T21 237.5t56.5-136t136-56.5zm-.5 342q62 0 106-44t44-106t-44-105.5T213 88t-105.5 43.5T64 237t43.5 106T213 387z"/></svg>), text: "Alertes Instantanées <2s" },
+                { icon: ()=>(<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15a4.5 4.5 0 0 0 4.5 4.5H18a3.75 3.75 0 0 0 1.332-7.257 3 3 0 0 0-3.758-3.848 5.25 5.25 0 0 0-10.233 2.33A4.502 4.502 0 0 0 2.25 15Z" /></svg>), text: "Plateforme Cloud" }
               ].map((item, index) => (
                 <div key={index} className="flex items-center gap-3">
-                  <span className="text-lg">{item.icon}</span>
+                  <span className="text-lg">{item.icon()}</span>
                   <span className="text-gray-300 text-sm">{item.text}</span>
                 </div>
               ))}
