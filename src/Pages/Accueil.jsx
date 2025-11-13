@@ -28,7 +28,7 @@ export function Accueil(){
                         <svg xmlns="http://www.w3.org/2000/svg" class="size-6" viewBox="0 0 432 432">
                             <path fill="currentColor" d="m427 82l-28 33l-98-83l28-32zM125 32l-97 82L0 82L98 0zm99 99v112l85 50l-16 26l-101-60V131h32zm-10.5-86Q293 45 349 101.5t56 136T349 373t-135.5 56t-136-56T21 237.5t56.5-136t136-56.5zm-.5 342q62 0 106-44t44-106t-44-105.5T213 88t-105.5 43.5T64 237t43.5 106T213 387z"/>
                         </svg>
-                        <span className="relative z-10">Voir les alertes</span>
+                        <span className="relative z-10">Voir les incidents</span>
                     </div>
                     <div className="absolute inset-0 rounded-full bg-gradient-to-r from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </Link>

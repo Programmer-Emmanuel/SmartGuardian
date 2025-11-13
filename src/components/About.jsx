@@ -21,7 +21,7 @@ export function About() {
       )
     },
     {
-      title: "Alertes Instantanées",
+      title: "Incidents Instantanées",
       description: "Notifications immédiates dès qu'un incident est détecté, avec moins de 2 secondes de latence.",
       icon: ()=>(
         <svg xmlns="http://www.w3.org/2000/svg" class="size-6" viewBox="0 0 432 432">
